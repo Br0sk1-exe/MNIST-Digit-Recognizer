@@ -14,8 +14,8 @@ while True:
         break
     
     h, w = frame.shape[:2]
-    x1, y1 = w//2 - 150, h//2 - 150
-    x2, y2 = w//2 + 150, h//2 + 150
+    x1, y1 = w//2 - 120, h//2 - 120
+    x2, y2 = w//2 + 120, h//2 + 120
     
     cv.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
     
